@@ -1,0 +1,7 @@
+<h1>{{ data?.name }}</h1>
+<survey-editor *ngIf="data" [json]="data?.surveyJSON" (surveySaved)="onSurveySaved($event)"></survey-editor>
+<!--<ul>
+    <li *ngFor="let item of data | async">
+        {{item.name}}
+    </li>
+</ul>-->
