@@ -75,7 +75,7 @@ cd D:/home/meteor-azure;
 if [ ! -e .meteor/meteor.bat ]; then
   echo meteor-azure: Installing Meteor
   curl -L -o meteor.tar.gz "https://packages.meteor.com/bootstrap-link?arch=os.windows.x86_32"
-  tar -zxf meteor.tar.gz
+  tar -vzxf meteor.tar.gz
   rm meteor.tar.gz
 fi
 export PATH="$HOME/meteor-azure/.meteor:$PATH"

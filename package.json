@@ -1,5 +1,5 @@
 {
-  "name": "angular2-meteor-base",
+  "name": "simplesurvey",
   "private": true,
   "scripts": {
     "start": "meteor run",
